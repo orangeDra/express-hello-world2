@@ -40,6 +40,7 @@
 </head>
 
 <body>
+  <h2>簡潔に会話しよう！送る文字数によって反応が変わるぞ！\( ﾟДﾟ)」</h2>
   <div class="chat">
     <ul class="messages"></ul>
     <form class="form">
@@ -135,9 +136,9 @@
             }
           } else if (text.length >= 5) {
             if (id === myId) {
-              li.textContent = `(${id})自分:` + text + " => " + text.length + "だね！ちょうどいい長さ！5字以上10字以下だ！"
+              li.textContent = `(${id})自分:` + text + " => " + text.length + "字だね！ちょうどいい長さ！5字以上10字以下だ！"
             } else {
-            li.textContent = id + ': ' + text + " => " + text.length + "だね！ちょうどいい長さ！5字以上10字以下だ！"
+            li.textContent = id + ': ' + text + " => " + text.length + "字だね！ちょうどいい長さ！5字以上10字以下だ！"
           }
         } else {
           if (id === myId) {
