@@ -136,8 +136,7 @@
           } else if (text.length >= 5) {
             if (id === myId) {
               li.textContent = `(${id})自分:` + text + " => " + text.length + "だね！ちょうどいい長さ！5字以上10字以下だ！"
-            }
-          } else {
+            } else {
             li.textContent = id + ': ' + text + " => " + text.length + "だね！ちょうどいい長さ！5字以上10字以下だ！"
           }
         } else {
@@ -165,6 +164,7 @@
     ws.onerror = function (error) {
       console.error('WebSocket Error: ', error)
     }
+  }
     main()
   </script>
 </body>
